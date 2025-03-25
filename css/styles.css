@@ -1,0 +1,90 @@
+/* General Body Styling */
+body {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  background-color: #fdf6e3; /* Light parchment background */
+  color: #3e3e3e;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings & Branding - using a more decorative font */
+h1, h2, h3, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Vintage Navbar Styling */
+.vintage-nav {
+  background-color: #8b5e3c; /* Warm brown tone */
+  border-bottom: 2px solid #d4a373;
+}
+.vintage-nav .navbar-brand,
+.vintage-nav .nav-link {
+  color: #fdf6e3 !important;
+}
+.vintage-nav .nav-link:hover {
+  color: #d4a373 !important;
+}
+
+/* Hero Section */
+.hero-section {
+  /* Replace the image with a vintage-style background */
+  background: url('../assets/vintage-hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #d4a373;
+  border: 2px solid #8b5e3c;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #c19968;
+  border-color: #8b5e3c;
+}
+
+/* Content Section Styling */
+.about-section, 
+.events-section, 
+.gallery-section, 
+.contact-section {
+  background-color: #fff;
+  border: 1px solid #d4a373;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Styling */
+.site-footer {
+  background-color: #8b5e3c;
+  color: #fdf6e3;
+  font-size: 0.9rem;
+  border-top: 2px solid #d4a373;
+}
+
+.gallery-item {
+    margin-bottom: 1rem;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.02);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;  /* Increase from default size */
+    font-weight: 500;   /* Optional: make it slightly bolder */
+}
